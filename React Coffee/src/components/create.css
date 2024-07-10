@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid gray;
+  padding: 3rem;
+  border-radius: 20px;
+  line-height: 4rem;
+  width: 40rem;
+}
+#btn {
+  width: 34rem;
+}
+.main input {
+  width: 34rem;
+}
+#email {
+  margin-bottom: 2rem;
+}
+.btn-down {
+  margin-top: 2rem;
+}

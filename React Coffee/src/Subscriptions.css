@@ -1,0 +1,390 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  a {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.5s ease;
+    text-underline-offset: 5px;
+    color: #333333;
+  }
+}
+a:hover {
+  text-decoration: underline solid Currentcolor;
+}
+li::marker {
+  content: none;
+}
+.limitedOffer {
+  width: 100%;
+  height: 32px;
+  background-color: #fdfbf7;
+  font-size: 16px;
+  font-family: Chronicle Text G1 Roman;
+  color: #333333;
+  text-align: center;
+  justify-content: center;
+  padding: 8px 0px;
+}
+.limitedOffer a {
+  color: #333333;
+}
+.navbar {
+  width: 100%;
+  background-color: #fdfbf7;
+  font-family: Halis GR Regular;
+  padding: 0px 60px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: sticky;
+  top: 0;
+  .navbar::hover {
+    background-color: #f9f6f0;
+  }
+}
+.left-nav {
+  display: flex;
+  gap: 20px;
+  color: #333333;
+  align-items: center;
+  justify-content: start;
+}
+.right-nav {
+  display: flex;
+  gap: 20px;
+  color: #333333;
+  align-items: center;
+  justify-content: end;
+}
+.right-nav-content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nav-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+}
+.nav-grid {
+  height: 100%;
+}
+.main-photo {
+  width: 100%;
+  height: 745px;
+  background-image: url(https://res.cloudinary.com/hbhhv9rz9/image/upload/f_auto,c_limit,w_3840,q_auto/Subscription%20/M1.jpg);
+  background-size: cover;
+  color: white;
+  padding: 0px 128px;
+}
+.main-content-in-pictute {
+  padding-top: 450px;
+  width: 40rem;
+}
+.main-photo h1 {
+  font-family: Chronicle Text G1 Roman;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+.main-photo p {
+  font-family: Chronicle Text G1 Roman;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+.main-photo-buttons {
+  margin-top: 30px;
+
+  width: 60%;
+  display: flex;
+  gap: 20px;
+}
+.main-photo-buttons button {
+  min-width: 300px;
+  font-family: Halis GR Regular;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 16px 36px;
+  background-color: rgba(106, 82, 82, 0);
+  border: 1px solid #ffffff;
+  color: white;
+}
+.main-photo-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.134);
+}
+.howItWorks {
+  width: 100%;
+  background-color: #fdfbf7;
+  padding: 48px 150px;
+}
+.howItWorks-content h2 {
+  text-align: center;
+  font-family: Chronicle Text G1 Roman;
+  font-size: 30px;
+  color: #333333;
+  font-weight: 100;
+}
+.howItWorks-content {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 100%;
+}
+h3 {
+  margin-top: 20px;
+}
+.howItWorks-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  height: 100%;
+  width: 100%;
+  font-family: Halis GR Regular;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.howItWorks-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.subscriptions {
+  width: 100%;
+  background-color: white;
+}
+.subscriptions h2 {
+  font-family: Chronicle Text G1 Roman;
+  padding: 40px 12px 32px;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+  color: #333333;
+}
+.subscriptions h3 {
+  font-family: Chronicle Text G1 Roman;
+  font-weight: 100;
+  font-size: 24px;
+  text-align: center;
+  padding: 0px 12px 48px;
+  color: #333333;
+}
+.box {
+  border: 1px solid #333333;
+  padding: 4px 16px;
+  border-radius: 999px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: Halis GR Regular;
+  color: #333333;
+  background-color: white;
+  text-decoration: none;
+}
+.box:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.filters {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.list-products-button {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  justify-content: center;
+}
+.list-products-button button {
+  padding: 16px 36px;
+  border: 1px solid #333333;
+  font-family: Halis GR Regular;
+  font-size: 12px;
+  color: #333333;
+  background-color: transparent;
+  height: 50px;
+  width: 300px;
+  align-self: center;
+  margin-top: 50px;
+}
+.product-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  height: 100%;
+  width: 100%;
+}
+.product-grid {
+  background-color: #f9f6f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Chronicle Text G1 Roman;
+  padding-top: 36px;
+}
+.spanTop {
+  color: #545454;
+  background-color: #edebe9;
+  padding: 5px;
+  font-family: Halis GR Regular;
+  margin: 0px 0px 28px;
+}
+.spanBottom {
+  color: #545454;
+  font-family: Halis GR Regular;
+  margin-top: 10px;
+}
+.product-grid p {
+  font-family: Chronicle Text G1 Roman;
+  font-size: 28px;
+  text-align: center;
+}
+.bottomP {
+  font-family: Chronicle Text G1 Roman;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+#sub-button {
+  border: none;
+  background-color: #333333;
+  color: #edebe9;
+  width: 100%;
+}
+.quote {
+  width: 100%;
+  height: auto;
+  background-color: #f9f6f0;
+}
+.quote-content {
+  padding: 150px 600px 200px 600px;
+  color: #333333;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  p {
+    font-size: 28px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  span {
+    font-size: 22px;
+    font-family: Halis GR Regular;
+  }
+}
+.photo-left-text-right {
+  display: flex;
+  padding: 50px 100px;
+  gap: 40px;
+  .photo-left {
+    background-image: url(https://res.cloudinary.com/hbhhv9rz9/image/upload/f_auto,c_limit,w_2048,q_auto/Subscription%20/M7.jpg);
+    background-size: cover;
+    width: 45vw;
+    height: 45vw;
+  }
+  .text-right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    .flex-icon-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .icon-text {
+      font-family: Halis GR Regular;
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      margin: 10px;
+      padding-bottom: 30px;
+      .icon img {
+        padding: 0px;
+      }
+      .text {
+        margin-left: 50px;
+        width: 400px;
+      }
+      .h4-text {
+        font-size: 18px;
+        padding-bottom: 10px;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}
+footer {
+  margin-top: 80px;
+  background-color: #333333;
+  color: #edebe9;
+  font-family: Halis GR Regular;
+  font-size: 10px;
+  .top-footer,
+  .mid-footer,
+  .bottom-footer {
+    padding: 20px 100px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  a {
+    color: #edebe9;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.5s ease;
+    text-underline-offset: 5px;
+    padding-bottom: 20px;
+  }
+  span:first-child {
+    float: left;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 0px;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  p {
+    letter-spacing: 1px;
+    padding: 5px 0px;
+  }
+  h3 {
+    padding-bottom: 20px;
+  }
+  hr {
+    border: 1px solid #edebe9;
+  }
+}
+.mid-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.rightBox {
+  width: 30%;
+}
+#marginAdd {
+  margin-top: 20px;
+  float: right;
+  font-size: 12px;
+}

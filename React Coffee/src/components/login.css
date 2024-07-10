@@ -1,0 +1,52 @@
+.main {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+  color: white;
+  background-color: rgb(55, 167, 246);
+}
+.login-container {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid gray;
+  padding: 3rem;
+  border-radius: 20px;
+  line-height: 4rem;
+  width: 40rem;
+}
+.login-container input,
+button {
+  height: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  border: 1px solid gray;
+}
+button {
+  color: #333333;
+  background-color: white;
+  cursor: pointer;
+}
+input {
+  background-color: #333333;
+  color: white;
+  font-size: 12px;
+}
+#changeColor {
+  color: white;
+  margin-left: 10px;
+}
+#btn {
+  width: 34rem;
+}
+.main input {
+  width: 34rem;
+}
+#email {
+  margin-bottom: 2rem;
+}
