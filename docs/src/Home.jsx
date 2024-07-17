@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="mainImg">
-        <p className="textInImg">Blue Bottle Best Sellers </p>
+        <p className="textInImg">Blue Bottle Best Seller </p>
       </div>
       <div className="filters">
         <a href="" className="box">
